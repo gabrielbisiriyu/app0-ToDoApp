@@ -20,6 +20,8 @@ while True:
     event,values=win.read() 
     print(event)
     print(values) 
+
+# THIS
     if event == "Add":
         todos=functions.get_todo()
         new_todo=values[0]+'\n'
